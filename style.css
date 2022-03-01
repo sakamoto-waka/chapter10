@@ -18,6 +18,11 @@ main {
   justify-content: center;
 }
 
+.post-items {
+  display: flex;
+  justify-content: center;
+}
+
 .content {
   width: 300px;
   margin: 50px 30px 50px 0;
@@ -73,8 +78,11 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     width: 100%;
-    display: block;
     margin: 50px 5%;
+  }
+
+  .post-items {
+    display: block;
   }
 
   .content {
